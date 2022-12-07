@@ -1,4 +1,5 @@
 import HomePage from "./pages/HomePage";
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 function App() {
   return (
