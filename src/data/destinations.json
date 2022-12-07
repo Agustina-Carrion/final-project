@@ -1,91 +1,91 @@
 [
-    {
-      "lat": 33.835293,
-      "lng": -117.914505,
-      "city": "Anaheim",
-      "image": "./images/Disneyland.jpg",
-      "imageAltText": "Anaheim, CA, USA",
-      "thumbnail": "link to something",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "Disneyland, CA",
-      "date": "August 2012",
-      "description": "Disneyland in Anaheim ,California from an aerial view ",
-      "link": "Read more"
-    },
-    {
-      "lat": -25.695230,
-      "lng": -54.436718,
-      "city": "Iguazu Falls",
-      "image": "./images/IguazuFalls.jpg",
-      "imageAltText": "Iguazu Falls, Argentina",
-      "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "Iguazu Falls",
-      "date": " September 2012",
-      "description": "",
-      "link": "Read more"
-    },
-    {
-      "lat": 38.3535,
-      "lng": 35.0911,
-      "city": "Cappadocia",
-      "image": "./images/Cappadocia.jpg",
-      "imageAltText": "Capadocia, Turkey",
-      "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "Cappadocia",
-      "date": "February 2015",
-      "description": "Cappadocia, Turkey ",
-      "link": "Read more"
-    },
-    {
-      "lat": 47.5576,
-      "lng": -6.2602964,
-      "city": "Neuschwanstein Castle",
-      "image": "./images/NeuschwansteinCastle.jpg",
-      "imageAltText": "Neuschwanstein Castle, Germany",
-      "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "Neuschwanstein Castle, Germany",
-      "date": "Sometime in 2017",
-      "description": "Neuschwanstein Castle, Germany ",
-      "link": "Read more"
-    },    
-    {
-      "lat": 48.8049,
-      "lng": 2.1204,
-      "city": "Versaille",
-      "image": "./images/Versailles.png",
-      "imageAltText": "Palace of Versailles, France",
-      "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "Palace of Versailles",
-      "date": "Nov 2018",
-      "description": "Palace of Versailles ",
-      "link": "Read more"
-    },
-
-    {
-      "lat": 29.9511,
-      "lng": 90.0715,
-      "city": "New Orleans",
-      "image": "./images/NewOrleans.jpg",
-      "imageAltText": "NewOrleans, LA, USA",
-      "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "New Orleans, LA, USA",
-      "date": "",
-      "description": "New Orleans, LA, USA"
-    },
-  
   {
-      "image": "./Images/Polaroid Cards/Empty.png",
-      "imageAltText": "Placeholder Image",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVI4EuaPkeJ2FmcAaj4KSeXjX-wCIdNs78XA&usqp=CAU",
-      "thumbnailAltText": "Placeholder Image",
-      "name": "One For Future Trips",
-      "date": "Soon, please",
-      "description": "(Here comes a description) <br /> <br /> <a href=\"./new-entries.html\">Add me!</a>",
-      "link": "Add More"
-    }
-  ]
+    "lat": 33.835293,
+    "lng": -117.914505,
+    "city": "Anaheim",
+    "image": "/images/Disneyland.jpg",
+    "imageAltText": "Anaheim, CA, USA",
+    "thumbnail": "link to something",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "Disneyland, CA",
+    "date": "August 2012",
+    "description": "Disneyland in Anaheim ,California from an aerial view ",
+    "link": "Read more"
+  },
+  {
+    "lat": -25.69523,
+    "lng": -54.436718,
+    "city": "Iguazu Falls",
+    "image": "/images/IguazuFalls.jpg",
+    "imageAltText": "Iguazu Falls, Argentina",
+    "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "Iguazu Falls",
+    "date": " September 2012",
+    "description": "",
+    "link": "Read more"
+  },
+  {
+    "lat": 38.3535,
+    "lng": 35.0911,
+    "city": "Cappadocia",
+    "image": "/images/Cappadocia.jpg",
+    "imageAltText": "Capadocia, Turkey",
+    "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "Cappadocia",
+    "date": "February 2015",
+    "description": "Cappadocia, Turkey ",
+    "link": "Read more"
+  },
+  {
+    "lat": 47.5576,
+    "lng": -6.2602964,
+    "city": "Neuschwanstein Castle",
+    "image": "/images/NeuschwansteinCastle.jpg",
+    "imageAltText": "Neuschwanstein Castle, Germany",
+    "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "Neuschwanstein Castle, Germany",
+    "date": "Sometime in 2017",
+    "description": "Neuschwanstein Castle, Germany ",
+    "link": "Read more"
+  },
+  {
+    "lat": 48.8049,
+    "lng": 2.1204,
+    "city": "Versaille",
+    "image": "/images/Versailles.png",
+    "imageAltText": "Palace of Versailles, France",
+    "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "Palace of Versailles",
+    "date": "Nov 2018",
+    "description": "Palace of Versailles ",
+    "link": "Read more"
+  },
+
+  {
+    "lat": 29.9511,
+    "lng": 90.0715,
+    "city": "New Orleans",
+    "image": "/images/NewOrleans.jpg",
+    "imageAltText": "NewOrleans, LA, USA",
+    "thumbnail": "https://bulma.io/images/placeholders/96x96.png",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "New Orleans, LA, USA",
+    "date": "",
+    "description": "New Orleans, LA, USA"
+  },
+
+  {
+    "image": "/Images/Polaroid Cards/Empty.png",
+    "imageAltText": "Placeholder Image",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVI4EuaPkeJ2FmcAaj4KSeXjX-wCIdNs78XA&usqp=CAU",
+    "thumbnailAltText": "Placeholder Image",
+    "name": "One For Future Trips",
+    "date": "Soon, please",
+    "description": "(Here comes a description) <br /> <br /> <a href=\"./new-entries.html\">Add me!</a>",
+    "link": "Add More"
+  }
+]
