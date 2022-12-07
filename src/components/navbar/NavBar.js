@@ -6,7 +6,7 @@ import {
   MobileHamburgerMenuItems,
   MenuItem,
   NavBarButtons,
-} from "../componentExports.js";
+} from "../../componentExports.js";
 
 function Navbar() {
   const menu = [
