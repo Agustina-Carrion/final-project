@@ -1,0 +1,99 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "/images/IguazuFalls.jpg",
+        "title": "Iguazu Falls",
+        "date": "2012",
+        "authorImage": "",
+        "authorName": "Agustina",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-54.44511352116402, -25.686852388126894],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "/images/Disneyland.jpg",
+        "title": "Disneyland",
+        "date": "2012",
+        "authorImage": "",
+        "authorName": "Andi",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-117.9189735211639, 33.81110890849821],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "/images/Cappadocia.jpg",
+        "title": "Cappadocia",
+        "date": "2015",
+        "authorImage": "",
+        "authorName": "Andi",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [34.83789499999895, 38.64157804902101],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "/images/NeuschwansteinCastle.jpg",
+        "title": "Neuschwanstein Castle, Germany",
+        "date": "2017",
+        "authorImage": "",
+        "authorName": "Agustina",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [10.749795728838222, 47.557786426668514],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "/images/Versailles.jpg",
+        "title": "Versailles",
+        "date": "2018",
+        "authorImage": "",
+        "authorName": "Agustina",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [2.1269271967749432, 48.804570509333416],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "/images/NewOrleans.jpg",
+        "title": "New Orleans",
+        "date": "2019",
+        "authorImage": "",
+        "authorName": "Andi",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-90.07063399999974, 29.957842667423506],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
