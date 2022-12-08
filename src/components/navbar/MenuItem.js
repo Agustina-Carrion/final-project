@@ -1,9 +1,7 @@
-function MenuItem({ text }) {
+function MenuItem({ text, onClick }) {
   return (
-    <div
-      className="inline-flex items-center border-b-2 border-cyan-400 px-1 pt-1 text-lg font-medium text-gray-900"
-    >
-      {text}
+    <div className="inline-flex items-center border-b-2 border-cyan-400 px-1 pt-1 text-lg font-medium text-gray-900">
+      <button onClick={onClick}>{text}</button>
     </div>
   );
 }
