@@ -15,7 +15,10 @@ function Navbar() {
   ];
 
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure
+      as="nav"
+      className="bg-gradient-to-br from-blue-700 to-emerald-400 shadow"
+    >
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -24,7 +27,7 @@ function Navbar() {
                 <MobileHamburgerMenu />
                 <Logo />
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
-                  <div className="inline-flex items-center px-1 pt-1 text-xl font-bold text-gray-900">
+                  <div className="inline-flex items-center px-1 pt-1 text-xl font-bold text-white">
                     RIP AA
                   </div>
                   {menu.map((menuItem, index) => (
