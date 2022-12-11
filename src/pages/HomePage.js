@@ -1,9 +1,6 @@
 import { NavBar, Footer, Map, BlogCard } from "../componentExports";
-import myData from "../data/destinationsLight.json";
 
-function HomePage() {
-  const destinations = myData;
-
+function HomePage({ destinations }) {
   return (
     <>
       <NavBar />
@@ -18,7 +15,7 @@ function HomePage() {
               .map((item, i) => (
                 <BlogCard
                   key={item.properties.title}
-                  id={i + 1}
+                  id={i}
                   image={item.properties.image}
                   title={item.properties.title}
                   date={item.properties.date}

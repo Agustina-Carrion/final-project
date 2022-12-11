@@ -1,5 +1,5 @@
 import { NavBar, Footer, Map } from "../componentExports";
-function BlogDetail({ id }) {
+function BlogDetail({ id, destinations }) {
   return (
     <>
       <NavBar />
@@ -7,7 +7,7 @@ function BlogDetail({ id }) {
         <div className="mb-4 md:mb-0 w-full mx-auto relative">
           <div className="px-4 lg:px-0">
             <h2 className="text-4xl font-semibold text-gray-800 leading-tight mb-10">
-              Lalalalala
+              {destinations.features[id]?.properties.title}
             </h2>
           </div>
           <div className="p-4">
@@ -26,7 +26,7 @@ function BlogDetail({ id }) {
             </div>
           </div>
           <img
-            src="/images/Disneyland.jpg"
+            src={destinations.features[id].properties.image}
             className="w-full object-cover lg:rounded"
             alt="Destination"
           />
