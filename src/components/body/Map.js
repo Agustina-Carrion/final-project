@@ -28,12 +28,11 @@ function Map() {
         .setPopup(
           new mapboxgl.Popup({ offset: 25 }) 
         .setHTML(
-          `<div className="popupContent">
-          <h3 className="title">${feature?.properties?.title}</>
-           <p className="date">${feature?.properties?.date}</p>
-           <p className="authorImage">${feature?.properties?.authorImage}</p>
-           <p className="author">${feature?.properties?.author}</p>
-           <p className="detailsLink"></p>
+          `<div>
+          <h3>${feature?.properties?.title}<h3/>
+           <p> Visiting Date: ${feature?.properties?.date}</p>
+           <img src="${feature?.properties?.authorImage}" style="height: 30px; width: 30px; margin-left: 37%"/>
+           <p> Author: ${feature?.properties?.author}</p>
            </div>`
         )
         )
