@@ -28,7 +28,7 @@ function Navbar() {
                 <Logo />
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
                   <div className="inline-flex items-center px-1 pt-1 text-xl font-bold text-white">
-                    RIP AA
+                    Happy Path
                   </div>
                   {menu.map((menuItem, index) => (
                     <Link key={index} href={menuItem.target}>

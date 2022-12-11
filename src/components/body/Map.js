@@ -32,8 +32,8 @@ function Map() {
           <h3 className="title">${feature?.properties?.title}</>
            <p className="date">${feature?.properties?.date}</p>
            <p className="authorImage">${feature?.properties?.authorImage}</p>
-           <p className="authorName">${feature?.properties?.authorName}</p>
-           <p className="detailsLink">Link</p>
+           <p className="author">${feature?.properties?.author}</p>
+           <p className="detailsLink"></p>
            </div>`
         )
         )
