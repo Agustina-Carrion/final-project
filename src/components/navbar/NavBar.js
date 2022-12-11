@@ -6,6 +6,7 @@ import {
   MobileHamburgerMenuItems,
   MenuItem,
   NavBarButtons,
+  Switcher,
 } from "../../componentExports.js";
 
 function Navbar() {
@@ -15,10 +16,7 @@ function Navbar() {
   ];
 
   return (
-    <Disclosure
-      as="nav"
-      className="bg-gradient-to-br from-blue-700 to-emerald-400 shadow"
-    >
+    <Disclosure as="nav" className="bg-blue-700 shadow dark:bg-slate-400">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -43,6 +41,7 @@ function Navbar() {
               </div>
               <div className="flex items-center">
                 <NavBarButtons />
+                <Switcher />
               </div>
             </div>
           </div>

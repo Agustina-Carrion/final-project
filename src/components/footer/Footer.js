@@ -52,12 +52,12 @@ function Footer() {
     },
   ];
   return (
-    <footer className="bg-gradient-to-br from-blue-700 to-emerald-400">
+    <footer className="bg-blue-700 shadow dark:bg-slate-400">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item, index) => (
             <Link key={index} href={item.href}>
-              <div className="text-white hover:text-white">
+              <div className="text-white hover:text-gray-300">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </div>
