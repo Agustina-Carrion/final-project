@@ -6,7 +6,9 @@ function App() {
   return (
     <main className="flex flex-col w-full h-full">
       <Switch>
-        <Route path="/blog/:id" component={BlogDetail} />
+        <Route path="/blog/:id">
+          {(params) => <BlogDetail id={params.id} />}
+        </Route>
         <Route path="/contact" component={Contact} />
         <Route>
           <HomePage />

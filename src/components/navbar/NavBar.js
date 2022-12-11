@@ -10,8 +10,8 @@ import {
 
 function Navbar() {
   const menu = [
-    { text: "Home", target: "home" },
-    { text: "Contact", target: "contact" },
+    { text: "Home", target: "/home" },
+    { text: "Contact", target: "/contact" },
   ];
 
   return (

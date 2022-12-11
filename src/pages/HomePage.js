@@ -15,13 +15,15 @@ function HomePage() {
                 (itemA, itemB) =>
                   Number(itemB.properties.date) - Number(itemA.properties.date)
               )
-              .map((item) => (
+              .map((item, i) => (
                 <BlogCard
                   key={item.properties.title}
+                  id={i + 1}
                   image={item.properties.image}
                   title={item.properties.title}
-                  dates={item.properties.date}
-                  author={item.properties.authorName}
+                  date={item.properties.date}
+                  authorImage={item.properties.authorImage}
+                  author={item.properties.author}
                 />
               ))}
           </div>
