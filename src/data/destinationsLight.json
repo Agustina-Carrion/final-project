@@ -6,8 +6,8 @@
         "image": "/images/IguazuFalls.jpg",
         "title": "Iguazu Falls",
         "date": "2012",
-        "authorImage": "",
-        "authorName": "Agustina",
+        "authorImage": "/images/Agustina.jpg",
+        "author": "Agustina",
         "description": ""
       },
       "geometry": {
@@ -22,8 +22,8 @@
         "image": "/images/Disneyland.jpg",
         "title": "Disneyland",
         "date": "2012",
-        "authorImage": "",
-        "authorName": "Andi",
+        "authorImage": "/images/Andi.jpeg",
+        "author": "Andi",
         "description": ""
       },
       "geometry": {
@@ -38,8 +38,8 @@
         "image": "/images/Cappadocia.jpg",
         "title": "Cappadocia",
         "date": "2015",
-        "authorImage": "",
-        "authorName": "Andi",
+        "authorImage": "/images/Andi.jpeg",
+        "author": "Andi",
         "description": ""
       },
       "geometry": {
@@ -54,8 +54,8 @@
         "image": "/images/NeuschwansteinCastle.jpg",
         "title": "Neuschwanstein",
         "date": "2017",
-        "authorImage": "",
-        "authorName": "Agustina",
+        "authorImage": "/images/Agustina.jpg",
+        "author": "Agustina",
         "description": ""
       },
       "geometry": {
@@ -70,8 +70,8 @@
         "image": "/images/Versailles.jpg",
         "title": "Versailles",
         "date": "2018",
-        "authorImage": "",
-        "authorName": "Agustina",
+        "authorImage": "/images/Agustina.jpg",
+        "author": "Agustina",
         "description": ""
       },
       "geometry": {
@@ -85,8 +85,8 @@
         "image": "/images/NewOrleans.jpg",
         "title": "New Orleans",
         "date": "2019",
-        "authorImage": "",
-        "authorName": "Andi",
+        "authorImage": "/images/Andi.jpeg",
+        "author": "Andi",
         "description": ""
       },
       "geometry": {
