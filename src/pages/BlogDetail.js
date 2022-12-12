@@ -1,4 +1,4 @@
-import { NavBar, Footer, Map } from "../componentExports";
+import { NavBar, Footer, MapContainer } from "../componentExports";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { Link } from "wouter";
@@ -20,26 +20,26 @@ function BlogDetail({ id, destinations }) {
         <div className="mb-4 md:mb-0 w-full mx-auto relative">
           <div className="px-4 lg:px-0">
             <h2 className="text-4xl font-semibold text-gray-800 leading-tight mb-10">
-              {destinations.features[id]?.properties.title}
+              {destinations[id]?.title}
             </h2>
           </div>
           <div className="p-4">
             <div className="flex py-2">
               <img
-                src={ destinations.features[id]?.properties.authorImage }
+                src={ destinations[id]?.authorImage }
                 className="h-10 w-10 rounded-full mr-2 object-cover"
                 alt="Author"
               />
               <div>
                 <p className="font-semibold text-gray-700 text-sm">
-                  { destinations.features[id]?.properties.author }
+                  { destinations[id]?.author }
                 </p>
                 <p className="font-semibold text-gray-600 text-xs"> Editor </p>
               </div>
             </div>
           </div>
           <img
-            src={destinations.features[id].properties.image}
+            src={destinations[id].image}
             className="w-full object-cover lg:rounded"
             alt="Destination"
           />
@@ -48,19 +48,19 @@ function BlogDetail({ id, destinations }) {
         <div className="flex flex-col lg:flex-row lg:space-x-12">
           <div className="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
             <p className="pb-6">
-            { destinations.features[id]?.properties.description }
+            { destinations[id]?.description }
             </p>
 
             <p className="pb-6">
-            { destinations.features[id]?.properties.description }
+            { destinations[id]?.description }
             </p>
             <div className="relative inline-flex items-center"> 
                 <MapPinIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true"/>
-              { destinations.features[id]?.properties.location }
+              { destinations[id]?.location }
             </div>
           </div>
-          <div className="w-full lg:w-1/2 m-auto mt-12 max-w-screen-sm">
-            <Map />
+          <div className="inline-flex min-w-max md:min-w-0 w-full lg:w-1/2 m-auto mt-12 max-w-screen-sm">
+            <MapContainer />
           </div>
         </div>
       </main>

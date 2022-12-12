@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "longitude": 9.99,
+    "latitude": 53.55,
+    "image": "/pictures_travellocations/image13.JPG",
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Hamburg",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "traveldate": 2017,
+    "blogposttitel": "The most beautiful city on earth",
+    "blogtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 2,
+    "longitude": 13.4,
+    "latitude": 52.52,
+    "image": "/pictures_travellocations/image14.JPG",
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Berlin",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "traveldate": 2018,
+    "blogposttitel": "The most beautiful city on earth",
+    "blogtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 3,
+    "longitude": 11.02,
+    "latitude": 50.98,
+    "image": "/pictures_travellocations/image15.JPG",
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Erfurt",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "traveldate": 2019,
+    "blogposttitel": "The most beautiful city on earth",
+    "blogtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 4,
+    "longitude": 9.18,
+    "latitude": 48.77,
+    "image": "/pictures_travellocations/image16.JPG",
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Stuttgart",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "traveldate": 2020,
+    "blogposttitel": "The most beautiful city on earth",
+    "blogtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 5,
+    "longitude": 6.95,
+    "latitude": 50.93,
+    "image": "/pictures_travellocations/image17.JPG",
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Köln",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "traveldate": 2021,
+    "blogposttitel": "The most beautiful city on earth",
+    "blogtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 5,
+    "longitude": 8.94,
+    "latitude": 48.8,
+    "image": "/pictures_travellocations/image18.JPG",
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Rutesheim",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "traveldate": 2022,
+    "blogposttitel": "The most beautiful city on earth",
+    "blogtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  }
+]
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
