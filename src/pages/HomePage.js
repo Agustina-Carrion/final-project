@@ -1,4 +1,4 @@
-import { NavBar, Footer, Map, BlogCard } from "../componentExports";
+import { NavBar, Footer, MapContainer, BlogCard } from "../componentExports";
 
 function HomePage({ destinations }) {
   return (
@@ -7,25 +7,24 @@ function HomePage({ destinations }) {
       <div className="relative bg-rose-500 dark:bg-slate-900">
         <div className="grid sm:auto-cols-max md:grid-cols-2 justify-center items-center px-4 py-8 sm:px-6 lg:px-8 lg:py-0">
           <div className="grid grid-cols-2 md:ml-0 md:w-full md:px-0 md:py-16 sm:px-6 sm:py-12">
-            {destinations?.features
-              ?.sort(
+            {destinations?.sort(
                 (itemA, itemB) =>
-                  Number(itemB.properties.date) - Number(itemA.properties.date)
+                  Number(itemB.date) - Number(itemA.date)
               )
               .map((item, i) => (
                 <BlogCard
-                  key={item.properties.title}
+                  key={item.title}
                   id={i}
-                  image={item.properties.image}
-                  title={item.properties.title}
-                  date={item.properties.date}
-                  authorImage={item.properties.authorImage}
-                  author={item.properties.author}
+                  image={item.image}
+                  title={item.title}
+                  date={item.date}
+                  authorImage={item.authorImage}
+                  author={item.author}
                 />
               ))}
           </div>
           <div className="md:w-full">
-            <Map />
+            <MapContainer />
           </div>
         </div>
       </div>

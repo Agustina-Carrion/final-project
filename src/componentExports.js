@@ -5,6 +5,6 @@ export { default as MobileHamburgerMenu } from "./components/navbar/MobileHambur
 export { default as MobileHamburgerMenuItems } from "./components/navbar/MobileHamburgerMenuItems";
 export { default as NavBarButtons } from "./components/navbar/NavBarButtons";
 export { default as Switcher } from "./components/navbar/Switcher";
-export { default as Map } from "./components/body/Map";
+export { default as MapContainer } from "./components/body/MapContainer";
 export { default as BlogCard } from "./components/body/BlogCard";
 export { default as NavBar } from "./components/navbar/NavBar";

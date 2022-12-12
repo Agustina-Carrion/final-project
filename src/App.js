@@ -1,7 +1,7 @@
 import { HomePage, Contact, BlogDetail } from "./pagesExports";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { Switch, Route } from "wouter";
-import data from "./data/destinationsLight.json";
+import data from "./data/destinationsLightMode.json";
 
 function App() {
   const destinations = data;
