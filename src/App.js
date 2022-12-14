@@ -1,4 +1,4 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import { HomePage, Contact, BlogDetail } from "./pagesExports";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { Switch, Route } from "wouter";
@@ -8,16 +8,16 @@ function App() {
   //const destinations = data;
   const [travelDestinations, setTravelDestinations] = useState([]);
   const [error, setError] = useState(null);
-  useEffect( () => {
-    fetch ("http://localhost:3001/destinations")
-    .then ((response) => response.json())
-    .then ((result) => {
-      setTravelDestinations (result);
-      console.log(result);
-      setError (null);
-    })
-    .catch (setError);
-  },[]);
+  useEffect(() => {
+    fetch("http://localhost:3001/destinations")
+      .then((response) => response.json())
+      .then((result) => {
+        setTravelDestinations(result);
+        console.log(result);
+        setError(null);
+      })
+      .catch(setError);
+  }, []);
 
   return (
     <main className="flex flex-col w-full h-full">
@@ -26,7 +26,7 @@ function App() {
           {/* {(params) => (
             <BlogDetail id={params.id} destinations={destinations} />
           )} */}
-             {(params) => (
+          {(params) => (
             <BlogDetail id={params.id} destinations={travelDestinations} />
           )}
         </Route>
