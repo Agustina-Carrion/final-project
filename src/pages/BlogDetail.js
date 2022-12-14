@@ -33,15 +33,20 @@ function BlogDetail({ id, destinations }) {
             </h2>
           </div>
           <div className="p-4">
-            <div className="flex items-center py-2">
-              <img
-                src={destinations[id]?.authorImage}
-                className="h-12 w-12 rounded-full mr-2 object-cover"
-                alt="Author"
-              />
-              <p className="font-semibold text-white text-lg">
-                {destinations[id]?.author}
+            <div className="flex justify-between items-center py-2 px-4">
+              <p className="font-semibold text-white text-lg italic">
+                Visiting date: {destinations[id]?.date}
               </p>
+              <div className="flex items-center">
+                <img
+                  src={destinations[id]?.authorImage}
+                  className="h-14 w-14 rounded-full mr-4 object-cover"
+                  alt="Author"
+                />
+                <p className="font-semibold text-white text-lg">
+                  {destinations[id]?.author}
+                </p>
+              </div>
             </div>
           </div>
           <img
