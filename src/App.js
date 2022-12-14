@@ -13,7 +13,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/destinations")
+    fetch("https://happypathapi.onrender.com/destinations")
       .then((response) => response.json())
       .then((result) => {
         setTravelDestinationsAPI(result);
