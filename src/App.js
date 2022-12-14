@@ -2,17 +2,21 @@ import { useState, useEffect } from "react";
 import { HomePage, Contact, BlogDetail } from "./pagesExports";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { Switch, Route } from "wouter";
-//import data from "./data/destinationsLightMode.json";
+
+// Commented out local solution (it fetches data from the json file)
+// import data from "./data/destinationsLightMode.json";
 
 function App() {
-  //const destinations = data;
-  const [travelDestinations, setTravelDestinations] = useState([]);
+  // const destinationsJSON = data;
+
+  const [travelDestinationsAPI, setTravelDestinationsAPI] = useState([]);
   const [error, setError] = useState(null);
+
   useEffect(() => {
     fetch("http://localhost:3001/destinations")
       .then((response) => response.json())
       .then((result) => {
-        setTravelDestinations(result);
+        setTravelDestinationsAPI(result);
         console.log(result);
         setError(null);
       })
@@ -24,16 +28,16 @@ function App() {
       <Switch>
         <Route path="/blog/:id">
           {/* {(params) => (
-            <BlogDetail id={params.id} destinations={destinations} />
+            <BlogDetail id={params.id} destinations={destinationsJSON} />
           )} */}
           {(params) => (
-            <BlogDetail id={params.id} destinations={travelDestinations} />
+            <BlogDetail id={params.id} destinations={travelDestinationsAPI} />
           )}
         </Route>
         <Route path="/contact" component={Contact} />
         <Route>
-          {/* <HomePage destinations={destinations} /> */}
-          <HomePage error={error} destinations={travelDestinations} />
+          {/* <HomePage destinations={destinationsJSON} /> */}
+          <HomePage error={error} destinations={travelDestinationsAPI} />
         </Route>
       </Switch>
     </main>

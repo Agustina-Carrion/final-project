@@ -3,7 +3,6 @@ import { useState, useMemo } from "react";
 import Pin from "./Pin";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { Link } from "wouter";
-// import geoJson from "../../data/destinationsLightMode.json";
 
 const TOKEN =
   "pk.eyJ1IjoiYW5kaXZ3aGl0ZSIsImEiOiJjbGIzeDQ4MmgwNXFmM3JxbnNlaW9neXc0In0.kyEmO_woTD50qizMwbHYmQ";
@@ -21,15 +20,15 @@ function MapContainer({ destinations }) {
 
   const pins = useMemo(
     () =>
-      destinations.map((travelLocation) => (
+      destinations.map((destination) => (
         <Marker
-          key={travelLocation.title}
-          longitude={travelLocation.longitude}
-          latitude={travelLocation.latitude}
+          key={destination.title}
+          longitude={destination.longitude}
+          latitude={destination.latitude}
           anchor="bottom"
           onClick={(e) => {
             e.originalEvent.stopPropagation();
-            setPopupInfo(travelLocation);
+            setPopupInfo(destination);
           }}
         >
           <Pin />

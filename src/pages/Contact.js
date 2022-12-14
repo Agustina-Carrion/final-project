@@ -20,12 +20,12 @@ function Contact() {
               </p>
               <p className="max-w-2xl mt-4 text-white text-lg dark:text-gray-300">
                 This project has been the source of one too many headaches 🤕
-                and riotous laughter 🤣, but we love it dearly 🫶!
+                and riotous laughter 🤣, and we love it dearly 🫶!
                 <br />
               </p>
               <p className="max-w-2xl mt-4 text-white text-lg dark:text-gray-300">
                 This is our final project for
-                <strong className="text-orange-700 dark:text-red-400">
+                <strong className="text-violet-700 dark:text-red-400">
                   {" "}
                   Hamburg Coding School's{" "}
                 </strong>
