@@ -1,9 +1,17 @@
-import { NavBar, Footer, MapContainer } from "../componentExports";
+import { NavBar, Footer } from "../componentExports";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { Link } from "wouter";
+import Map, { Marker } from "react-map-gl";
+import Pin from "../components/body/Pin";
+import "mapbox-gl/dist/mapbox-gl.css";
 
 function BlogDetail({ id, destinations }) {
+  const viewport = {
+    longitude: destinations[id]?.longitude,
+    latitude: destinations[id]?.latitude,
+    zoom: 12,
+  };
   return (
     <>
       <NavBar />
@@ -40,27 +48,39 @@ function BlogDetail({ id, destinations }) {
           </div>
           <img
             src={destinations[id].image}
-            className="w-full object-cover lg:rounded"
+            className="w-full h-full lg:rounded"
             alt="Destination"
           />
         </div>
 
         <div className="flex flex-col lg:flex-row lg:space-x-12">
           <div className="px-4 lg:px-0 mt-12 text-white text-lg leading-relaxed w-full lg:w-3/4">
-            <p className="pb-6">
-            { destinations[id]?.description }
-            </p>
+            <p className="pb-6">{destinations[id]?.description}</p>
 
-            <p className="pb-6">
-            { destinations[id]?.description }
-            </p>
-            <div className="relative inline-flex items-center"> 
-                <MapPinIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true"/>
-              { destinations[id]?.location }
+            <p className="pb-6">{destinations[id]?.description}</p>
+            <div className="relative inline-flex items-center">
+              <MapPinIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
+              {destinations[id]?.location}
             </div>
           </div>
-          <div className="inline-flex min-w-max md:min-w-0 w-full lg:w-1/2 m-auto mt-12 max-w-screen-sm">
-            <MapContainer />
+          <div className="inline-flex min-w-max md:min-w-0 lg:w-1/2 m-auto mt-12 max-w-screen-sm">
+            <Map
+              initialViewState={viewport}
+              style={{ width: "100%", height: 500 }}
+              mapboxAccessToken={
+                "pk.eyJ1IjoiYW5kaXZ3aGl0ZSIsImEiOiJjbGIzeDQ4MmgwNXFmM3JxbnNlaW9neXc0In0.kyEmO_woTD50qizMwbHYmQ"
+              }
+              mapStyle="mapbox://styles/mapbox/streets-v12"
+              cursor="move"
+            >
+              <Marker
+                longitude={destinations[id]?.longitude}
+                latitude={destinations[id]?.latitude}
+                anchor="bottom"
+              >
+                <Pin />
+              </Marker>
+            </Map>
           </div>
         </div>
       </main>

@@ -1,8 +1,8 @@
 import { Link } from "wouter";
 
-function BlogCard({ image, title, date, authorImage, author, id }) {
+function BlogCard({ image, title, date, location, authorImage, author, id }) {
   return (
-    <div className="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-slate-400 dark:border-slate-500 m-3 ">
+    <div className="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-slate-400 dark:border-slate-500 m-3 ">
       <img
         className="rounded-t-lg h-1/2 w-full"
         src={image}
@@ -12,9 +12,10 @@ function BlogCard({ image, title, date, authorImage, author, id }) {
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mb-2">
           {title}
         </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400 mb-4">
-          {date}
+        <p className="font-normal text-gray-700 dark:text-white mb-4">
+          📍{location}
         </p>
+        <p className="font-normal text-gray-700 dark:text-white mb-4">{date}</p>
         <div className="flex items-center my-4">
           <img
             className="w-12 h-10 rounded-full mr-4"
@@ -22,9 +23,9 @@ function BlogCard({ image, title, date, authorImage, author, id }) {
             alt="Author"
           />
           <div className="text-md">
-            <p className="text-gray-900 leading-none dark:text-gray-400">
-              {author}
-            </p>
+            <h4 className="text-gray-900 text-lg italic leading-none dark:text-white">
+              by {author}
+            </h4>
           </div>
         </div>
         <Link href={`/blog/${id}`}>
